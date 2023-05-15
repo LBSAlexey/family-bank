@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-image: url('../assets/11060.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  margin: 0;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  padding-top: 10px;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 400px;
+}
+
+
+.accounts-container img {
+  width: 100px;
+  margin: auto;
+}
+
+.transactions-container img {
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+}
+
+#accounts {
+  text-align: center;
+}
+
+.accounts-container .list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transactions-container .list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.button-income {
+    padding: 10px;
+    border: 1px solid rgb(68 169 68);
+    color: rgb(68 169 68);
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    background: none;
+    border-radius: 10px;
+    transition: 1s all;
+}
+
+.button-expences { 
+  padding: 10px;
+  border: 1px solid rgb(167, 0, 0);
+  color: rgb(167, 0, 0);
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  background: none;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+
+.button-income:hover {
+  border: 1px solid rgb(88, 158, 88);
+  color: rgb(88, 158, 88);
+}
+
+.button-expences:hover {
+  border: 1px solid rgb(153, 74, 74);
+  color: rgb(153, 74, 74);
+}
